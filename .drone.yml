@@ -10,9 +10,9 @@ build:
             - python testing.py
 publish:
     docker:
-        repo: $$DOCKER_USERNAME/cicd_demoapp
+        repo: brbesset/cicd_demoapp
         tag: latest
-        username: $$DOCKER_USERNAME
+        username: brbesset
         password: $$DOCKER_PASSWORD
         email: $$DOCKER_EMAIL
 
@@ -25,4 +25,4 @@ deploy:
             username: $$MANTL_USERNAME
             password: $$MANTL_PASSWORD
         urls:
-            - https://$$MANTL_CONTROL/marathon/v2/apps/class/$$DOCKER_USERNAME/restart?force=true
+            - https://$$MANTL_CONTROL/marathon/v2/apps/class/brbesset/restart?force=true
