@@ -13,7 +13,7 @@ publish:
         repo: brbesset/cicd_demoapp
         tag: latest
         username: brbesset
-        password: $$DOCKER_PASSWORD
+        password: cisco123
         email: brian.bessette@gmail.com
 
 deploy:
