@@ -14,7 +14,7 @@ publish:
         tag: latest
         username: brbesset
         password: $$DOCKER_PASSWORD
-        email: $$DOCKER_EMAIL
+        email: brian.bessette@gmail.com
 
 deploy:
     webhook:
