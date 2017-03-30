@@ -22,7 +22,7 @@ deploy:
         skip_verify: true
         method: POST
         auth:
-            username: $$MANTL_USERNAME
-            password: $$MANTL_PASSWORD
+            username: CICD1
+            password: CICD1
         urls:
-            - https://$$MANTL_CONTROL/marathon/v2/apps/class/brbesset/restart?force=true
+            - https://control.sandbox.imapex.io/marathon/v2/apps/class/brbesset/restart?force=true
